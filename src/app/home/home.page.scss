@@ -25,3 +25,22 @@
 #container a {
   text-decoration: none;
 }
+
+.content-camera-preview {
+  --background: transparent;
+}
+
+.video-player {
+  max-width: 100vw;
+  max-height: calc(100vh - 100px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  video {
+    vertical-align: top;
+    max-width: 100vw;
+    max-height: calc(100vh - 100px);
+  }
+}
